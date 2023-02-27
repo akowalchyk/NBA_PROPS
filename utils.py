@@ -93,7 +93,7 @@ def grab_players():
 
 def get_one_players_stats(players):
     p = players[1]
-    player_url = "https://www.basketball-reference.com" + p.url + "/gamelog/2023"
+    player_url = "https://www.basketball-reference.com" + '/players/t/thybuma01' + "/gamelog/2023"
     print(player_url)
 
     df = grab_players_game_logs(player_url)
@@ -126,21 +126,65 @@ def clean_data():
     df = df[df['Date'].notna()]
 
     #removing unneeded columns
-    df.drop(columns=['FG%', '3P%', 'FT%','DRB', 'TRB','AST', 'STL', 'BLK','TOV'], axis=1, inplace=True)
-    df.rename(columns={'\xa0': 'home', '\xa0.1': 'marg'}, inplace=True)
+    df.drop(columns=['Age','FG%', '3P%', 'FT%','DRB', 'TRB','AST', 'STL', 'BLK','TOV', '\xa0.1'], axis=1, inplace=True)
+    df.rename(columns={'\xa0': 'away'}, inplace=True)
 
     # changing home/away values to 0/1
-    df['home'] = df['home'].notnull().astype("int")
-
-    
-
+    df['away'] = df['away'].notnull().astype("int")
 
     df.to_csv("adams_results.csv", index=False)
+
+def transform_data():
+    df = pd.read_csv("adams_results.csv")
+
+    # add day of week
+    df['Date'] = pd.to_datetime(df['Date'])
+    df['day'] = df['Date'].dt.day_name()
+
+    # inactive games
+    df.loc[(df['GS'] == 'Inactive') | (df['GS'] == 'Did Not Play') | (df['GS'] == 'Did Not Dress'), 'MP'] = '00:00' 
+    # df.loc[df['GS'] == 'Inactive', 'FG'] = '0' 
+    # df.loc[df['GS'] == 'Inactive', 'FGA'] = '0'
+    # df.loc[df['GS'] == 'Inactive', '3P'] = '0'
+    # df.loc[df['GS'] == 'Inactive', '3PA'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'FT'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'FTA'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'ORB'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'PF'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'PTS'] = '0'
+    # df.loc[df['GS'] == 'Inactive', 'GmSc'] = '0'
+    # df.loc[df['GS'] == 'Inactive', '+/-'] = '0'
+    df.loc[(df['GS'] == 'Inactive') | (df['GS'] == 'Did Not Play') | (df['GS'] == 'Did Not Dress'), 'GS'] = '0'  
+
+
+
+    #minutes played to minutes 
+    df['MP'] = df['MP'].str.replace(':','.')
+    df['MP'] = df['MP'].astype(float)
     
+    #inactive or active
+    df['played'] = df['MP'].apply(lambda x: '1' if x > 0 else '0')
+
+    # past minutes avg
+    df['3_game_MP_avg'] = df['MP'].rolling(3).mean().shift()
+    df['last_MP'] = df['MP'].rolling(1).mean().shift()
+
+    df['2_game_MP_diff'] = df['MP'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0])
+    df['4_game_MP_diff'] = df['MP'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0]))
+
+    
+
+    df.to_csv("adams_trans.csv", index=False)
+
+
 players = grab_players()
 get_one_players_stats(players)
-
 clean_data()
+
+transform_data()
+
+#df = pd.read_csv("player_data.csv")
+#print(df["GS"].unique())
 
 
 
