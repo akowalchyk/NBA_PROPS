@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from bs4 import BeautifulSoup
 import time
+from datetime import datetime
 
 class Player:
     def __init__(self, name, url, pos):
@@ -134,6 +135,11 @@ def clean_data():
 
     df.to_csv("adams_results.csv", index=False)
 
+def get_ms(time_str):
+    """Get seconds from time."""
+    m, s = time_str.split(':')
+    return (int(m) * 60 + int(s)) * 1000
+
 def transform_data():
     df = pd.read_csv("adams_results.csv")
 
@@ -156,30 +162,45 @@ def transform_data():
     # df.loc[df['GS'] == 'Inactive', '+/-'] = '0'
     df.loc[(df['GS'] == 'Inactive') | (df['GS'] == 'Did Not Play') | (df['GS'] == 'Did Not Dress'), 'GS'] = '0'  
 
+    df['TA'] = df['FGA'] + df['3PA']
+    # changing to milliseconds
+    df['MP'] = df['MP'].apply(get_ms)
 
-
-    #minutes played to minutes 
-    df['MP'] = df['MP'].str.replace(':','.')
-    df['MP'] = df['MP'].astype(float)
-    
     #inactive or active
     df['played'] = df['MP'].apply(lambda x: '1' if x > 0 else '0')
+    
+    
+    # minutes #
+    df['last_MP'] = df['MP'].shift()
+    df['last_3_game_MP_avg'] = df['MP'].rolling(3).mean().shift()
+    df['last_2_game_MP_diff'] = df['MP'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0]).shift()
+    df['last_4_game_MP_diff'] = df['MP'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0])).shift()
 
-    # past minutes avg
-    df['3_game_MP_avg'] = df['MP'].rolling(3).mean().shift()
-    df['last_MP'] = df['MP'].rolling(1).mean().shift()
+    # points #
+    df['last_PTS'] = df['PTS'].shift()
+    df['last_3_game_PTS_avg'] = df['PTS'].rolling(3).mean().shift()
+    df['last_2_game_PTS_diff'] = df['PTS'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0]).shift()
+    df['last_4_game_PTS_diff'] = df['PTS'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0])).shift()
 
-    df['2_game_MP_diff'] = df['MP'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0])
-    df['4_game_MP_diff'] = df['MP'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0]))
+    # total attempts #
+    df['last_TA'] = df['TA'].shift()
+    df['last_3_game_TA_avg'] = df['TA'].rolling(3).mean().shift()
+    df['last_2_game_TA_diff'] = df['TA'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0]).shift()
+    df['last_4_game_TA_diff'] = df['TA'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0])).shift()
 
+    # Game Score #
+    df['last_GmSc'] = df['GmSc'].shift()
+    df['last_3_game_GmSc_avg'] = df['GmSc'].rolling(3).mean().shift()
+    df['last_2_game_GmSc_diff'] = df['GmSc'].rolling(window=2).apply(lambda x: x.iloc[1] - x.iloc[0]).shift()
+    df['last_4_game_GmSc_diff'] = df['GmSc'].rolling(window=4).apply(lambda x: (x.iloc[3] - x.iloc[2]) +  (x.iloc[2] - x.iloc[1]) + (x.iloc[1] - x.iloc[0])).shift()
     
 
     df.to_csv("adams_trans.csv", index=False)
 
 
-players = grab_players()
-get_one_players_stats(players)
-clean_data()
+# players = grab_players()
+# get_one_players_stats(players)
+# clean_data()
 
 transform_data()
 
