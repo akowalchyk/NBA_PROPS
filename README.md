@@ -5,3 +5,6 @@ All NBA player game logs for the 2022/2023 has been scraped from basketball refe
 
 ### 2/21
 Research into BigQuery and Cloud Scheduler has been made, research proposal is about done.
+
+### 2/28
+Research Proposal finished, several data transformations created as well as further cleaning of data
