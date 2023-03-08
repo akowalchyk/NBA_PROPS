@@ -4,11 +4,13 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
+import pickle
 
 class Player:
-    def __init__(self, name, url, pos):
+    def __init__(self, name, url, team, pos):
         self.name = name
         self.url = url
+        self.team = team
         self.pos = pos
 
 def grab_players_info():
@@ -91,8 +93,9 @@ def grab_players():
                 url = a['href'][0:-5]
                 url_counts[url] = 0
                 name = a.get_text()
+                team = tr.find("td", attrs={"data-stat": "team_id"}).get_text()
                 pos = tr.find("td", attrs={"data-stat": "pos"}).get_text()
-                p = Player(url=url, name=name, pos=pos)
+                p = Player(url=url, name=name, pos=pos, team=team)
                 players.append(p)
         
         for p in players:
@@ -101,9 +104,10 @@ def grab_players():
                 url_counts[url] += 1
                 final_players.append(p)
 
-        print(len(final_players))
+        with open('players.pkl', 'wb') as file:
+            pickle.dump(final_players, file)
 
-
+    
     return final_players
 
 def get_one_players_stats(players):
@@ -233,19 +237,82 @@ def transform_data():
 
         # games_played # 
         df['games_played'] = df.played.cumsum().shift()
+        
+        df = df.iloc[3:]
 
+        df = df[df['played'] == 1]
 
         final_df = pd.concat([final_df, df])
 
     final_df.drop(columns=['G', 'Date', 'GS', 'MP', 'FG','FGA','3P','3PA','GmSc','+/-','player_name', 'FT', 'FTA', 'ORB', 'PF','played', 'TA'], axis=1, inplace=True)
 
     final_df.to_csv("player_data_final.csv", index=False)
+
+
+def extract_bets_raw():
+    lines = []
+    players = []
+    with open('bets_raw_2.txt', 'r') as f:
+        for line in f:
+            stripped_line = line.strip()
+            if stripped_line:
+                lines.append(stripped_line)
     
+    i = 0
+    size = len(lines)
+    while i < size:
+        curr_line = lines[i]
+        if '@' in curr_line or 'vs' in curr_line:
+            i+= 1
+            if i < size:
+                curr_line = lines[i]
+                if '-' in curr_line:
+                    player = []
+                    i -= 2
+                    curr_line = lines[i]
+                    player.append(curr_line)
+                    i+= 1
+                    curr_line = lines[i]
+                    player.append(curr_line[0:3])
+                    while 'Points' not in curr_line or 'Fantasy' in curr_line or '+' in curr_line:
+                        i+= 1
+                        curr_line = lines[i]
+                    player.append(curr_line)
+                    players.append(player)
+                        
+        i+= 1
+    
+    
+    df1 = pd.read_csv("factorized.csv")
+    grouped = df1.groupby(['player_id'])
+    player_dfs = []
+    for name, df in grouped:  
+        player_dfs.append(df)
+    
+    with open('players.pkl', 'rb') as file:
+            # Call load method to deserialze
+            all_players = pickle.load(file)
+            for p in all_players:
+                name = p.name
+                id = p.url
+                pos = p.pos
+                team = p.team
+                for p_bet in players:
+                    if p_bet[0] == name and p_bet[1] == team:
+                        print(p_bet[0]) 
+                        print(id)
+    
+
+    return players
+
+players = extract_bets_raw()
+
 
 #players = grab_players()
 #get_all_players_stats(players)
 #get_one_players_stats(players)
 #clean_data()
+
 
 #transform_data()
 
