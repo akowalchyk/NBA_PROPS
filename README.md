@@ -8,3 +8,6 @@ Research into BigQuery and Cloud Scheduler has been made, research proposal is a
 
 ### 2/28
 Research Proposal finished, several data transformations created as well as further cleaning of data
+
+### 3/7
+Transformations finished, working on feature decicions and training
