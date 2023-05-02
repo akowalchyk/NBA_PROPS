@@ -1,4 +1,4 @@
-name: Run utils.py and push changes to the repository every morning at 6:00 AM PST
+#name: Run utils.py and push changes to the repository every morning at 6:00 AM PST
 
 on:
   schedule:
