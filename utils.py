@@ -457,6 +457,7 @@ def pred_bets(players):
                     df['played'] = df['MP'].apply(lambda x: 1 if x > 0 else 0)
                     
                     df = df.append(s, ignore_index=True)
+                    df = pd.concat([df, pd.DataFrame([s])], ignore_index=True)
 
 
                     # minutes #
@@ -625,7 +626,7 @@ def pred(model, x_vals):
     l = sorted(l, key=lambda x: x.diff, reverse=True)
     for x in l:
         data = { 'Name':x.name, 'Underdog Points':x.underdog_points, 'Model Points':x.model_points, 'Differential':x.diff, 'Pos/Neg':x.sign}
-        df = df.append(data, ignore_index=True)
+        df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
         #print(x.name," Diff:", x.diff, " Underdog Points", x.underdog_points, " Model Points:", x.model_points, x.id)
         #print()
     print(df)
