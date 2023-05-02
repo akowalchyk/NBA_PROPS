@@ -525,9 +525,9 @@ def pred_bets(players):
                         
                     #df.iloc[-1].to_csv("test_data.csv", index=False)
     print(len(x_vals))
-    fileObj = open('x_vals.pkl', 'wb')
-    pickle.dump(x_vals,fileObj)
-    fileObj.close()
+    # fileObj = open('x_vals.pkl', 'wb')
+    # pickle.dump(x_vals,fileObj)
+    # fileObj.close()
     return x_vals
 
 def evaluate(model,X_train,X_test,y_train,y_test,X,y):    
