@@ -1,20 +1,20 @@
-TOR @ DEN
-6:10PM
-Pascal Siakam
-TOR @ DEN
+PHI @ BOS
+Wed 5:10PM
+James Harden
+PHI @ BOS
 
- - 6:10PM
+ - Wed 5:10PM
 
 
-5.0 Assists
-
-Higher
-Lower
-34.5 Pts + Rebs + Asts
+37.5 Pts + Rebs + Asts
 
 Higher
 Lower
-22.5 Points
+5.5 Rebounds
+
+Higher
+Lower
+8.5 Assists
 
 Higher
 Lower
@@ -22,34 +22,29 @@ Lower
 
 Higher
 Lower
-27.5 Points + Assists
+23.5 Points
 
 Higher
 Lower
-40.35 Fantasy Points
-
-
-Higher
-Lower
-5.0 FT Made
+14.5 Rebounds + Assists
 
 Higher
 Lower
-12.0 Rebounds + Assists
+Tyrese Maxey
+PHI @ BOS
+
+ - Wed 5:10PM
+
+
+30.5 Pts + Rebs + Asts
 
 Higher
 Lower
-6.5 Rebounds
+23.5 Points
 
 Higher
 Lower
-Fred VanVleet
-TOR @ DEN
-
- - 6:10PM
-
-
-31.5 Pts + Rebs + Asts
+7.0 Rebounds + Assists
 
 Higher
 Lower
@@ -57,62 +52,81 @@ Lower
 
 Higher
 Lower
-7.0 Assists
+Tobias Harris
+PHI @ BOS
+
+ - Wed 5:10PM
+
+
+25.5 Pts + Rebs + Asts
 
 Higher
 Lower
-27.5 Points + Assists
+6.5 Rebounds
 
 Higher
 Lower
-1.5 Steals
+23.5 Points + Rebounds
 
 Higher
 Lower
-39.85 Fantasy Points
-
-
-Higher
-Lower
-20.0 Points
+16.5 Points
 
 Higher
 Lower
-11.0 Rebounds + Assists
+9.0 Rebounds + Assists
 
 Higher
 Lower
-24.0 Points + Rebounds
+1.5 3-Pointers Made
 
 Higher
 Lower
-Scottie Barnes
-TOR @ DEN
+P.J. Tucker
+PHI @ BOS
 
- - 6:10PM
+ - Wed 5:10PM
 
 
-14.5 Points
-
-Higher
-Lower
-24.5 Pts + Rebs + Asts
+10.0 Pts + Rebs + Asts
 
 Higher
 Lower
-20.5 Points + Rebounds
+5.0 Rebounds
 
 Higher
 Lower
-10.5 Rebounds + Assists
+8.5 Points + Rebounds
 
 Higher
 Lower
-0.5 3-Pointers Made
+3.5 Points
 
 Higher
 Lower
-1.5 Blocks + Steals
+Jayson Tatum
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+39.5 Points + Rebounds
+
+Higher
+Lower
+9.5 Rebounds
+
+Higher
+Lower
+4.5 Assists
+
+Higher
+Lower
+34.5 Points + Assists
+
+Higher
+Lower
+14.0 Rebounds + Assists
 
 Higher
 Lower
@@ -120,12 +134,33 @@ Lower
 
 Higher
 Lower
-30.75 Fantasy Points
-
+3.5 3-Pointers Made
 
 Higher
 Lower
-4.0 Assists
+43.5 Pts + Rebs + Asts
+
+Higher
+Lower
+29.5 Points
+
+Higher
+Lower
+Jaylen Brown
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+24.5 Points
+
+Higher
+Lower
+34.0 Pts + Rebs + Asts
+
+Higher
+Lower
+30.5 Points + Rebounds
 
 Higher
 Lower
@@ -133,275 +168,7 @@ Lower
 
 Higher
 Lower
-OG Anunoby
-TOR @ DEN
-
- - 6:10PM
-
-
-13.5 Points
-
-Higher
-Lower
-19.5 Pts + Rebs + Asts
-
-Higher
-Lower
-1.5 3-Pointers Made
-
-Higher
-Lower
-1.5 Turnovers
-
-Higher
-Lower
-0.5 Blocks
-
-Higher
-Lower
-1.5 Steals
-
-Higher
-Lower
-4.5 Rebounds
-
-Higher
-Lower
-Jakob Poeltl
-TOR @ DEN
-
- - 6:10PM
-
-
-11.5 Points
-
-Higher
-Lower
-8.5 Rebounds
-
-Higher
-Lower
-22.5 Pts + Rebs + Asts
-
-Higher
-Lower
-20.5 Points + Rebounds
-
-Higher
-Lower
-29.75 Fantasy Points
-
-
-Higher
-Lower
-10.5 Rebounds + Assists
-
-Higher
-Lower
-Gary Trent Jr.
-TOR @ DEN
-
- - 6:10PM
-
-
-14.5 Points
-
-Higher
-Lower
-17.5 Pts + Rebs + Asts
-
-Higher
-Lower
-0.5 Turnovers
-
-Higher
-Lower
-Chris Boucher
-TOR @ DEN
-
- - 6:10PM
-
-
-10.5 Pts + Rebs + Asts
-
-Higher
-Lower
-6.5 Points
-
-Higher
-Lower
-0.5 3-Pointers Made
-
-Higher
-Lower
-4.0 Rebounds
-
-Higher
-Lower
-Nikola Jokic
-DEN vs TOR
-
- - 6:10PM
-
-
-23.5 Points
-
-Higher
-Lower
-12.5 Rebounds
-
-Higher
-Lower
-45.5 Pts + Rebs + Asts
-
-Higher
-Lower
-36.0 Points + Rebounds
-
-Higher
-Lower
-10.0 Assists
-
-Higher
-Lower
-0.5 Blocks
-
-Higher
-Lower
-5.0 FT Made
-
-Higher
-Lower
-55.25 Fantasy Points
-
-
-Higher
-Lower
-0.5 Triple Doubles
-
-Higher
-Lower
-33.5 Points + Assists
-
-Higher
-Lower
-22.5 Rebounds + Assists
-
-Higher
-Lower
-3.5 Turnovers
-
-Higher
-Lower
-Jamal Murray
-DEN vs TOR
-
- - 6:10PM
-
-
-4.0 Rebounds
-
-Higher
-Lower
-21.5 Points
-
-Higher
-Lower
-26.5 Points + Rebounds
-
-Higher
-Lower
-32.5 Pts + Rebs + Asts
-
-Higher
-Lower
-6.5 Assists
-
-Higher
-Lower
-37.75 Fantasy Points
-
-
-Higher
-Lower
-28.5 Points + Assists
-
-Higher
-Lower
-10.5 Rebounds + Assists
-
-Higher
-Lower
-2.5 Turnovers
-
-Higher
-Lower
-Michael Porter
-DEN vs TOR
-
- - 6:10PM
-
-
-5.0 Rebounds
-
-Higher
-Lower
-17.0 Points
-
-Higher
-Lower
-0.5 Steals
-
-Higher
-Lower
-22.0 Points + Rebounds
-
-Higher
-Lower
-22.5 Pts + Rebs + Asts
-
-Higher
-Lower
-Aaron Gordon
-DEN vs TOR
-
- - 6:10PM
-
-
-14.5 Points
-
-Higher
-Lower
-6.5 Rebounds
-
-Higher
-Lower
-23.5 Pts + Rebs + Asts
-
-Higher
-Lower
-1.5 Turnovers
-
-Higher
-Lower
-21.5 Points + Rebounds
-
-Higher
-Lower
-0.5 3-Pointers Made
-
-Higher
-Lower
-0.5 Steals
-
-Higher
-Lower
-3.0 Assists
-
-Higher
-Lower
-29.05 Fantasy Points
-
+27.5 Points + Assists
 
 Higher
 Lower
@@ -409,78 +176,25 @@ Lower
 
 Higher
 Lower
-Kentavious Caldwell-Pope
-DEN vs TOR
+Marcus Smart
+BOS vs PHI
 
- - 6:10PM
+ - Wed 5:10PM
 
 
-10.5 Points
-
-Higher
-Lower
-15.5 Pts + Rebs + Asts
+19.5 Pts + Rebs + Asts
 
 Higher
 Lower
-1.5 3-Pointers Made
+11.5 Points
 
 Higher
 Lower
-2.5 Assists
+14.5 Points + Rebounds
 
 Higher
 Lower
-Bruce Brown
-DEN vs TOR
-
- - 6:10PM
-
-
-10.0 Points
-
-Higher
-Lower
-15.5 Pts + Rebs + Asts
-
-Higher
-Lower
-2.5 Assists
-
-Higher
-Lower
-Reggie Jackson
-DEN vs TOR
-
- - 6:10PM
-
-
-7.5 Points
-
-Higher
-Lower
-11.5 Pts + Rebs + Asts
-
-Higher
-Lower
-
-NOP @ SAC
-7:10PM
-Brandon Ingram
-NOP @ SAC
-
- - 7:10PM
-
-
-5.5 Rebounds
-
-Higher
-Lower
-37.5 Pts + Rebs + Asts
-
-Higher
-Lower
-26.5 Points
+16.5 Points + Assists
 
 Higher
 Lower
@@ -488,7 +202,59 @@ Lower
 
 Higher
 Lower
-32.5 Points + Rebounds
+8.5 Rebounds + Assists
+
+Higher
+Lower
+Al Horford
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+8.5 Points
+
+Higher
+Lower
+18.0 Pts + Rebs + Asts
+
+Higher
+Lower
+6.0 Rebounds
+
+Higher
+Lower
+14.5 Points + Rebounds
+
+Higher
+Lower
+9.5 Rebounds + Assists
+
+Higher
+Lower
+0.5 Steals
+
+Higher
+Lower
+Malcolm Brogdon
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+13.5 Points
+
+Higher
+Lower
+17.5 Points + Rebounds
+
+Higher
+Lower
+3.5 Rebounds
+
+Higher
+Lower
+17.5 Points + Assists
 
 Higher
 Lower
@@ -496,107 +262,152 @@ Lower
 
 Higher
 Lower
-31.5 Points + Assists
+0.5 Steals
 
 Higher
 Lower
-40.65 Fantasy Points
-
-
-Higher
-Lower
-11.0 Rebounds + Assists
+21.5 Pts + Rebs + Asts
 
 Higher
 Lower
-5.0 FT Made
+Derrick White
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+12.5 Points
 
 Higher
 Lower
-CJ McCollum
-NOP @ SAC
-
- - 7:10PM
-
-
-32.5 Pts + Rebs + Asts
+3.5 Rebounds
 
 Higher
 Lower
-22.5 Points
+15.5 Points + Assists
 
 Higher
 Lower
-4.0 Rebounds
+15.5 Points + Rebounds
 
 Higher
 Lower
-28.5 Points + Assists
+0.5 Steals
 
 Higher
 Lower
-2.5 Turnovers
-
-Higher
-Lower
-36.85 Fantasy Points
-
-
-Higher
-Lower
-6.0 Assists
-
-Higher
-Lower
-10.5 Rebounds + Assists
-
-Higher
-Lower
-27.0 Points + Rebounds
-
-Higher
-Lower
-Trey Murphy
-NOP @ SAC
-
- - 7:10PM
-
-
 19.5 Pts + Rebs + Asts
 
 Higher
 Lower
-14.5 Points
+Robert Williams
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+15.5 Pts + Rebs + Asts
 
 Higher
 Lower
-1.5 Blocks + Steals
+7.5 Points
 
 Higher
 Lower
-Herbert Jones
-NOP @ SAC
-
- - 7:10PM
-
-
-9.5 Points
+14.5 Points + Rebounds
 
 Higher
 Lower
-0.5 3-Pointers Made
+7.5 Rebounds
 
 Higher
 Lower
-6.5 Rebounds + Assists
+0.5 Steals
 
 Higher
 Lower
-16.5 Pts + Rebs + Asts
+
+DEN @ PHX
+Fri 7:10PM
+Nikola Jokic
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+47.5 Pts + Rebs + Asts
 
 Higher
 Lower
-4.0 Rebounds
+26.5 Points
+
+Higher
+Lower
+13.5 Rebounds
+
+Higher
+Lower
+7.5 Assists
+
+Higher
+Lower
+33.5 Points + Assists
+
+Higher
+Lower
+21.5 Rebounds + Assists
+
+Higher
+Lower
+40.5 Points + Rebounds
+
+Higher
+Lower
+Jamal Murray
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+22.5 Points
+
+Higher
+Lower
+7.0 Assists
+
+Higher
+Lower
+4.5 Rebounds
+
+Higher
+Lower
+33.5 Pts + Rebs + Asts
+
+Higher
+Lower
+29.5 Points + Assists
+
+Higher
+Lower
+11.5 Rebounds + Assists
+
+Higher
+Lower
+Aaron Gordon
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+6.0 Rebounds
+
+Higher
+Lower
+23.5 Pts + Rebs + Asts
+
+Higher
+Lower
+15.5 Points
 
 Higher
 Lower
@@ -604,29 +415,91 @@ Lower
 
 Higher
 Lower
-1.5 Steals
+21.5 Points + Rebounds
 
 Higher
 Lower
-2.5 Assists
+Kentavious Caldwell-Pope
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+14.5 Pts + Rebs + Asts
 
 Higher
 Lower
-Domantas Sabonis
-SAC vs NOP
-
- - 7:10PM
-
-
-41.5 Pts + Rebs + Asts
+2.5 Rebounds
 
 Higher
 Lower
-12.5 Rebounds
+9.5 Points
 
 Higher
 Lower
-34.5 Points + Rebounds
+Michael Porter
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+19.5 Pts + Rebs + Asts
+
+Higher
+Lower
+18.5 Points + Rebounds
+
+Higher
+Lower
+0.5 Steals
+
+Higher
+Lower
+5.0 Rebounds
+
+Higher
+Lower
+13.5 Points
+
+Higher
+Lower
+Bruce Brown
+DEN @ PHX
+
+ - Fri 7:10PM
+
+
+10.5 Points
+
+Higher
+Lower
+3.5 Rebounds
+
+Higher
+Lower
+16.5 Pts + Rebs + Asts
+
+Higher
+Lower
+Devin Booker
+PHX vs DEN
+
+ - Fri 7:10PM
+
+
+43.5 Pts + Rebs + Asts
+
+Higher
+Lower
+38.5 Points + Assists
+
+Higher
+Lower
+5.0 Rebounds
+
+Higher
+Lower
+12.5 Rebounds + Assists
 
 Higher
 Lower
@@ -634,68 +507,11 @@ Lower
 
 Higher
 Lower
-21.0 Points
+35.5 Points + Rebounds
 
 Higher
 Lower
-48.55 Fantasy Points
-
-
-Higher
-Lower
-29.0 Points + Assists
-
-Higher
-Lower
-4.5 FT Made
-
-Higher
-Lower
-21.0 Rebounds + Assists
-
-Higher
-Lower
-Harrison Barnes
-SAC vs NOP
-
- - 7:10PM
-
-
-22.5 Pts + Rebs + Asts
-
-Higher
-Lower
-4.5 Rebounds
-
-Higher
-Lower
-20.5 Points + Rebounds
-
-Higher
-Lower
-16.5 Points
-
-Higher
-Lower
-0.5 Steals
-
-Higher
-Lower
-1.5 3-Pointers Made
-
-Higher
-Lower
-Kevin Huerter
-SAC vs NOP
-
- - 7:10PM
-
-
-23.5 Pts + Rebs + Asts
-
-Higher
-Lower
-16.5 Points
+30.5 Points
 
 Higher
 Lower
@@ -703,21 +519,47 @@ Lower
 
 Higher
 Lower
-Keegan Murray
-SAC vs NOP
+Kevin Durant
+PHX vs DEN
 
- - 7:10PM
+ - Fri 7:10PM
 
 
-4.5 Rebounds
-
-Higher
-Lower
-18.5 Pts + Rebs + Asts
+6.0 Assists
 
 Higher
 Lower
-12.5 Points
+14.5 Rebounds + Assists
+
+Higher
+Lower
+8.0 Rebounds
+
+Higher
+Lower
+36.5 Points + Rebounds
+
+Higher
+Lower
+42.5 Pts + Rebs + Asts
+
+Higher
+Lower
+34.5 Points + Assists
+
+Higher
+Lower
+28.5 Points
+
+Higher
+Lower
+Deandre Ayton
+PHX vs DEN
+
+ - Fri 7:10PM
+
+
+26.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -725,57 +567,19 @@ Lower
 
 Higher
 Lower
-Davion Mitchell
-SAC vs NOP
-
- - 7:10PM
-
-
-9.5 Points
+25.5 Points + Rebounds
 
 Higher
 Lower
-4.0 Assists
+10.5 Rebounds + Assists
 
 Higher
 Lower
-13.5 Points + Assists
+9.5 Rebounds
 
 Higher
 Lower
-Trey Lyles
-SAC vs NOP
-
- - 7:10PM
-
-
-4.5 Rebounds
-
-Higher
-Lower
-9.5 Points
-
-Higher
-Lower
-15.5 Pts + Rebs + Asts
-
-Higher
-Lower
-Malik Monk
-SAC vs NOP
-
- - 7:10PM
-
-
-13.5 Points
-
-Higher
-Lower
-19.5 Pts + Rebs + Asts
-
-Higher
-Lower
-3.5 Assists
+15.5 Points
 
 Higher
 Lower

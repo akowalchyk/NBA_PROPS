@@ -534,9 +534,9 @@ def evaluate(model,X_train,X_test,y_train,y_test,X,y):
 
     # fitting data and saving model    
     model.fit(X_train, y_train)
-    fileObj = open('model.pkl', 'wb')
-    pickle.dump(model,fileObj)
-    fileObj.close()
+    # fileObj = open('model.pkl', 'wb')
+    # pickle.dump(model,fileObj)
+    # fileObj.close()
 
     pred = model.predict(X_test)
 
@@ -590,14 +590,15 @@ def pred(model, x_vals):
         ids.append(x['id'])
         new_x = x.drop(labels=['PTS','name','id'])
         print(x['name'])
+        #print(x_vals)
         x_tests.append((new_x))
 
+    print(x_vals[0])
     # x_test = [x_tests[2]]
     # print(x_test)
     # print(names[2])
     # fileObj = open('model.pkl', 'rb')
     # model = pickle.load(fileObj)
-    
     preds = model.predict(x_tests)
 
     l = []
