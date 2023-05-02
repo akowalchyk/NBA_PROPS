@@ -21,7 +21,7 @@ jobs:
       - name: Commit and push changes to the repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update bets" # Replace with your commit message
+          commit_message: "Update bets"
           commit_options: "--no-verify"
           file_pattern: "todays_bets.csv"
           branch: master
