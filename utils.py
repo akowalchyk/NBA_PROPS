@@ -29,13 +29,14 @@ class Player:
         self.away = away
 
 class Player_Bet:
-    def __init__(self,id, name, diff,underdog_points, model_points, actual_points ):
+    def __init__(self,id, name, diff,underdog_points, model_points, actual_points, sign ):
         self.diff = diff
         self.name = name
         self.underdog_points = underdog_points
         self.model_points = model_points
         self.actual_point = actual_points
         self.id = id
+        self.sign = sign
 
 
 def grab_players_info():
@@ -88,11 +89,16 @@ def grab_players_game_logs(url):
              tds = tr.find_all("td")
              for td in tds:
                  row.append(td.get_text())
+             ##print(len(row))
              rows.append(row)
              #print()
         df = pd.DataFrame(rows, columns=col_names)
+        df = df.drop(['Date', 'Age'], axis=1)
+        print(df.columns)
         return df
     return None # TODO: should do better error handling
+
+
 
 def grab_players():
     players = []
@@ -158,16 +164,17 @@ def grab_players():
 
 def get_one_players_stats(players):
     p = players[1]
-    player_url = "https://www.basketball-reference.com" + '/players/t/thybuma01' + "/gamelog/2023"
+    player_url = "https://www.basketball-reference.com" + '/players/c/curryst01' + "/gamelog/2023"
     print(player_url)
 
     df = grab_players_game_logs(player_url)
-    if not df.empty():
-        player_name = [p.name] * len(df)
-        pos = [p.pos] * len(df)
-        df["name"] = player_name
-        df["pos"] = pos
-        df.to_csv("Steven_Adams.csv", index=False)
+    print(df)
+    # #if not df.empty():
+    # player_name = [p.name] * len(df)
+    # pos = [p.pos] * len(df)
+    # df["name"] = player_name
+    # df["pos"] = pos
+    # df.to_csv("Steven_Adams.csv", index=False)
 
 def get_all_players_stats():
     fileObj = open('players.pkl', 'rb')
@@ -535,7 +542,7 @@ def evaluate(model,X_train,X_test,y_train,y_test,X,y):
 
     score = r2_score(y_test, pred) 
     print("R^2 score:", score)
-    
+    return model
     # # generating scatter plot for residuals
     # df = pd.DataFrame(columns=['points', 'predictions', 'residuals'])
     # df.attendance = y
@@ -568,20 +575,16 @@ def train():
     print(X_test.iloc[0])
 
     model = RandomForestRegressor(n_estimators=200, max_features=3)
-    evaluate(model,X_train,X_test,y_train,y_test,X,y)
+    model = evaluate(model,X_train,X_test,y_train,y_test,X,y)
+    return model
 
-
-def pred():
+def pred(model, x_vals):
     props = []
     names = []
     ids = []
     x_tests = []
-    fileObj = open('model.pkl', 'rb')
-    model = pickle.load(fileObj)
-    #opening x_tests
-    fileObj = open('x_vals.pkl', 'rb')
-    s = pickle.load(fileObj)
-    for x in s:
+  
+    for x in x_vals:
         props.append(x['PTS'])
         names.append(x['name'])
         ids.append(x['id'])
@@ -592,14 +595,21 @@ def pred():
     # x_test = [x_tests[2]]
     # print(x_test)
     # print(names[2])
-    fileObj = open('model.pkl', 'rb')
-    model = pickle.load(fileObj)
+    # fileObj = open('model.pkl', 'rb')
+    # model = pickle.load(fileObj)
     
     preds = model.predict(x_tests)
 
     l = []
     for i,v in enumerate(preds):
         diff = abs(float(props[i]) -  v)
+        act = 0
+        act = v - float(props[i]) 
+        sign = ''
+        if act > 0:
+            sign = '+'
+        else:
+            sign = '-'
         #print(x_tests[i])
         # print(names[i])
         name = names[i]
@@ -607,20 +617,66 @@ def pred():
         # print("Underdog Points: ", props[i])
         underdog_points = float(props[i])
         model_points = v
-        p = Player_Bet(id=id,diff=diff, name=name, underdog_points=underdog_points, model_points=model_points, actual_points=-1)
+        p = Player_Bet(id=id,diff=diff, name=name, underdog_points=underdog_points, model_points=model_points, actual_points=-1, sign=sign)
         l.append(p)
-    
+
+    df = pd.DataFrame(columns=['Name', 'Underdog Points', 'Model Points', 'Differential', 'Pos/Neg'])
     l = sorted(l, key=lambda x: x.diff, reverse=True)
     for x in l:
-        print(x.name," Diff:", x.diff, " Underdog Points:", x.underdog_points, " Model Points:", x.model_points, x.id)
-        print()
+        data = { 'Name':x.name, 'Underdog Points':x.underdog_points, 'Model Points':x.model_points, 'Differential':x.diff, 'Pos/Neg':x.sign}
+        df = df.append(data, ignore_index=True)
+        #print(x.name," Diff:", x.diff, " Underdog Points", x.underdog_points, " Model Points:", x.model_points, x.id)
+        #print()
+    print(df)
+    df.to_csv("todays_bets.csv", index=False)
     fileObj = open('bet_stats.pkl', 'wb')
     pickle.dump(l,fileObj)
     fileObj.close()
 
+def playoff_stuff():
+    # Make a GET request to the URL
+    url = "https://www.basketball-reference.com/players/j/jamesle01/gamelog-playoffs/"
+    response = requests.get(url)
+
+    # Parse the HTML content using Beautiful Soup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    table = soup.find("table", attrs={"id": "pgl_basic_playoffs"})
+    thead = table.find("thead")
+    ##print(thead)
+    ths = thead.find_all("th")
+    col_names = [th.get_text() for th in ths]
+    col_names = col_names[1:]
+
+    # Find all the td elements containing '2023' in the data-stat="date_game" attribute
+    trs = table.find_all('tr')
+    # Loop through the td elements and find the ones containing '2023'
+    good_trs = []
+    for tr in trs :
+        tds = tr.findAll('td')
+        for td in tds:
+            if '2023' in td.text:
+                good_trs.append(tr)
+
+    rows = []
+    rows = []
+    for tr in good_trs:
+        row = []
+        tds = tr.find_all("td")
+        for td in tds:
+            row.append(td.get_text())
+        #print(len(row))
+        rows.append(row)
+        #print()
+    df = pd.DataFrame(rows, columns=col_names)
+    df = df.drop(1, axis=1)
+    print(df)
+    print(df.columns)
+
+
 #def compare_bets():
 
-
+#get_one_players_stats("players")
 
 
 
@@ -639,12 +695,10 @@ def pred():
 
 #transform_data()
 
-#ps = extract_bets_raw()
-#x_vals = pred_bets(ps)
-
-
-#train()
-pred()
+ps = extract_bets_raw()
+x_vals = pred_bets(ps)
+model = train()
+pred(model, x_vals)
 
 
 
