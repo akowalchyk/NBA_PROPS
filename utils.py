@@ -456,7 +456,6 @@ def pred_bets(players):
                     #inactive or active
                     df['played'] = df['MP'].apply(lambda x: 1 if x > 0 else 0)
                     
-                    df = df.append(s, ignore_index=True)
                     df = pd.concat([df, pd.DataFrame([s])], ignore_index=True)
 
 
@@ -506,7 +505,7 @@ def pred_bets(players):
                     s = s.dropna()
                     df_final = pd.DataFrame()
                     df_final = pd.read_csv("player_data_final.csv")
-                    df_final = df_final.append(s, ignore_index=True)
+                    df_final = pd.concat([df_final, pd.DataFrame([s])], ignore_index=True)
 
                     le = LabelEncoder()
                     df_final['Tm'] = le.fit_transform(df_final['Tm'])
