@@ -2,7 +2,7 @@ name: Run utils.py and push changes to the repository every morning at 6:00 AM P
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: '*/6 * * * *'
 
 jobs:
   run-utils:
