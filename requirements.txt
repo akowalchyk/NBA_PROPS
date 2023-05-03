@@ -3,3 +3,12 @@ matplotlib
 pandas
 pyqt5
 numpy
+requests
+json
+pandas
+beautifulsoup4
+datetime
+pickle
+unidecode
+seaborn
+scikit-learn
