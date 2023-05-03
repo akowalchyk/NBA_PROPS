@@ -4,7 +4,6 @@ pandas
 pyqt5
 numpy
 requests
-json
 pandas
 beautifulsoup4
 datetime
