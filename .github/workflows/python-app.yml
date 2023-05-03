@@ -27,3 +27,9 @@ jobs:
           commit_options: "--no-verify"
           file_pattern: "todays_bets.csv"
           branch: master
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
