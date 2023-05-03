@@ -1,4 +1,4 @@
-name: Run utils.py and ush changes to the repository every morning at 6:00 AM PST
+name: bets action
 
 on:
   push:
