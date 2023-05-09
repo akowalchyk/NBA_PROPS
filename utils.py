@@ -236,7 +236,7 @@ def pred_bets(players):
                     df_final['Opp'] = le.fit_transform(df_final['Opp'])
                     df_final['player_url'] = le.fit_transform(df_final['player_url'])
                     df_final['pos'] = le.fit_transform(df_final['pos'])
-                    df_final['day'] = le.fit_transform(df_final['day'])
+                    #df_final['day'] = le.fit_transform(df_final['day'])
                     s = df_final.iloc[-1]
                     s = s.dropna()
                     s["name"] = p.name
@@ -284,7 +284,7 @@ def train():
     df['Opp'] = le.fit_transform(df['Opp'])
     df['player_url'] = le.fit_transform(df['player_url'])
     df['pos'] = le.fit_transform(df['pos'])
-    df['day'] = le.fit_transform(df['day'])
+    #df['day'] = le.fit_transform(df['day'])
     
     all_cols = df.columns
     pred_col = ['PTS']
