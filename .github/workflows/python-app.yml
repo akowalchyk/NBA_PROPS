@@ -1,4 +1,4 @@
-name: Run utils.py and push changes to the repository every morning at 6:00 AM PST
+name: bets action
 
 on:
   push:
@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Python environment
         uses: actions/setup-python@v2
         with:
@@ -27,3 +30,4 @@ jobs:
           commit_options: "--no-verify"
           file_pattern: "todays_bets.csv"
           branch: master
+

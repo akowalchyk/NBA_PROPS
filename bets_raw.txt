@@ -1,87 +1,32 @@
 PHI @ BOS
-4:40PM
-Joel Embiid
-PHI @ BOS
-
- - 4:40PM
-
-
-28.5 Points
-
-Higher
-Lower
-43.5 Pts + Rebs + Asts
-
-Higher
-Lower
-11.0 Rebounds
-
-Higher
-Lower
-3.5 Assists
-
-Higher
-Lower
-14.5 Rebounds + Assists
-
-Higher
-Lower
-32.5 Points + Assists
-
-Higher
-Lower
-0.5 3-Pointers Made
-
-Higher
-Lower
-2.5 Blocks + Steals
-
-Higher
-Lower
-50.85 Fantasy Points
-
-
-Higher
-Lower
-9.5 FT Made
-
-Higher
-Lower
-40.0 Points + Rebounds
-
-Higher
-Lower
+Wed 5:10PM
 James Harden
 PHI @ BOS
 
- - 4:40PM
+ - Wed 5:10PM
 
 
-21.5 Points
-
-Higher
-Lower
-35.5 Pts + Rebs + Asts
+37.5 Pts + Rebs + Asts
 
 Higher
 Lower
-8.0 Assists
+5.5 Rebounds
 
 Higher
 Lower
-2.5 3-Pointers Made
+8.5 Assists
 
 Higher
 Lower
-27.5 Points + Rebounds
+29.5 Points + Rebounds
 
 Higher
 Lower
-29.5 Points + Assists
+23.5 Points
 
 Higher
 Lower
-14.5 Rebounds + Assists
+31.5 Points + Assists
 
 Higher
 Lower
@@ -98,29 +43,24 @@ Lower
 
 Higher
 Lower
-Tyrese Maxey
-PHI @ BOS
+15.5 Rebounds + Assists
 
- - 4:40PM
+ - Wed 5:10PM
 
 
-25.5 Pts + Rebs + Asts
-
-Higher
-Lower
-18.5 Points
+30.5 Pts + Rebs + Asts
 
 Higher
 Lower
-3.5 Rebounds
+23.5 Points
 
 Higher
 Lower
-21.5 Points + Assists
+7.0 Rebounds + Assists
 
 Higher
 Lower
-22.5 Points + Rebounds
+4.0 Rebounds
 
 Higher
 Lower
@@ -128,25 +68,27 @@ Lower
 
 Higher
 Lower
-Tobias Harris
-PHI @ BOS
+40.5 Points + Rebounds
 
- - 4:40PM
-
-
-20.5 Pts + Rebs + Asts
+ - Wed 5:10PM
 
 Higher
 Lower
-13.5 Points
+5.5 FT Made
+
+25.5 Pts + Rebs + Asts
 
 Higher
 Lower
-7.5 Rebounds + Assists
+6.5 Rebounds
 
 Higher
 Lower
-0.5 Steals
+23.5 Points + Rebounds
+
+Higher
+Lower
+16.5 Points
 
 Higher
 Lower
@@ -154,39 +96,32 @@ Lower
 
 Higher
 Lower
-6.0 Rebounds
+1.5 3-Pointers Made
 
 Higher
 Lower
-P.J. Tucker
-PHI @ BOS
+21.5 Points + Assists
 
- - 4:40PM
-
-
-4.0 Rebounds
+ - Wed 5:10PM
 
 Higher
 Lower
-4.0 Points
+Austin Reaves
+LAL @ GSW
+
+10.0 Pts + Rebs + Asts
 
 Higher
 Lower
-0.5 Steals
+5.0 Rebounds
 
 Higher
 Lower
-9.5 Pts + Rebs + Asts
+8.5 Points + Rebounds
 
 Higher
 Lower
-De'Anthony Melton
-PHI @ BOS
-
- - 4:40PM
-
-
-7.5 Points
+3.5 Points
 
 Higher
 Lower
@@ -202,33 +137,39 @@ Lower
 
 Higher
 Lower
-Jayson Tatum
-BOS vs PHI
+19.5 Points + Rebounds
 
- - 4:40PM
-
-
-28.5 Points
+ - Wed 5:10PM
 
 Higher
 Lower
-5.0 Assists
+0.5 Steals
+
+39.5 Points + Rebounds
 
 Higher
 Lower
-33.5 Points + Assists
+9.5 Rebounds
 
 Higher
 Lower
-14.5 Rebounds + Assists
+4.5 Assists
 
 Higher
 Lower
-38.5 Points + Rebounds
+34.5 Points + Assists
 
 Higher
 Lower
-2.5 Turnovers
+14.0 Rebounds + Assists
+
+Higher
+Lower
+0.5 Blocks
+
+Higher
+Lower
+3.5 3-Pointers Made
 
 Higher
 Lower
@@ -236,46 +177,37 @@ Lower
 
 Higher
 Lower
-50.15 Fantasy Points
-
-
-Higher
-Lower
-5.5 FT Made
+29.5 Points
 
 Higher
 Lower
-10.0 Rebounds
+14.0 Pts + Rebs + Asts
+
+ - Wed 5:10PM
+
+ - 6:10PM
+
+24.5 Points
 
 Higher
 Lower
-Jaylen Brown
-BOS vs PHI
+34.0 Pts + Rebs + Asts
 
- - 4:40PM
+Higher
+Lower
+30.5 Points + Rebounds
 
+Higher
+Lower
+6.0 Rebounds
 
-5.5 Rebounds
+Higher
+Lower
+27.5 Points + Assists
 
 Higher
 Lower
 9.5 Rebounds + Assists
-
-Higher
-Lower
-2.5 Turnovers
-
-Higher
-Lower
-4.0 Assists
-
-Higher
-Lower
-29.5 Points + Rebounds
-
-Higher
-Lower
-28.0 Points + Assists
 
 Higher
 Lower
@@ -296,17 +228,24 @@ Lower
 
 Higher
 Lower
-Marcus Smart
-BOS vs PHI
+11.5 Rebounds + Assists
 
- - 4:40PM
+ - Wed 5:10PM
 
 
-16.5 Points + Rebounds
+19.5 Pts + Rebs + Asts
 
 Higher
 Lower
-8.0 Rebounds + Assists
+11.5 Points
+
+Higher
+Lower
+14.5 Points + Rebounds
+
+Higher
+Lower
+16.5 Points + Assists
 
 Higher
 Lower
@@ -314,87 +253,13 @@ Lower
 
 Higher
 Lower
-1.5 Blocks + Steals
+8.5 Rebounds + Assists
 
 Higher
 Lower
-21.5 Pts + Rebs + Asts
+32.85 Fantasy Points
 
-Higher
-Lower
-13.0 Points
-
-Higher
-Lower
-18.0 Points + Assists
-
-Higher
-Lower
-Al Horford
-BOS vs PHI
-
- - 4:40PM
-
-
-8.5 Points
-
-Higher
-Lower
-18.5 Pts + Rebs + Asts
-
-Higher
-Lower
-15.5 Points + Rebounds
-
-Higher
-Lower
-9.0 Rebounds + Assists
-
-Higher
-Lower
-0.5 Turnovers
-
-Higher
-Lower
-1.5 Blocks
-
-Higher
-Lower
-11.5 Points + Assists
-
-Higher
-Lower
-6.5 Rebounds
-
-Higher
-Lower
-Derrick White
-BOS vs PHI
-
- - 4:40PM
-
-
-12.5 Points
-
-Higher
-Lower
-15.5 Points + Rebounds
-
-Higher
-Lower
-14.5 Points + Assists
-
-Higher
-Lower
-2.5 Assists
-
-Higher
-Lower
-1.5 3-Pointers Made
-
-Higher
-Lower
-5.5 Rebounds + Assists
+ - Wed 5:10PM
 
 Higher
 Lower
@@ -402,17 +267,15 @@ Lower
 
 Higher
 Lower
-Malcolm Brogdon
-BOS vs PHI
-
- - 4:40PM
-
-
-3.5 Rebounds
+6.0 Rebounds
 
 Higher
 Lower
-14.5 Points
+14.5 Points + Rebounds
+
+Higher
+Lower
+9.5 Rebounds + Assists
 
 Higher
 Lower
@@ -420,40 +283,89 @@ Lower
 
 Higher
 Lower
-18.5 Points + Assists
+Malcolm Brogdon
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+13.5 Points
 
 Higher
 Lower
-22.0 Pts + Rebs + Asts
+17.5 Points + Rebounds
 
 Higher
 Lower
-19.0 Points + Rebounds
+3.5 Rebounds
 
 Higher
 Lower
-
-PHX @ DEN
-7:10PM
-Devin Booker
-PHX @ DEN
-
- - 7:10PM
-
-
-45.5 Pts + Rebs + Asts
+17.5 Points + Assists
 
 Higher
 Lower
-5.0 Rebounds
+13.5 Rebounds + Assists
 
 Higher
 Lower
-40.5 Points + Assists
+0.5 Steals
 
 Higher
 Lower
-37.5 Points + Rebounds
+21.5 Pts + Rebs + Asts
+
+Higher
+Lower
+Derrick White
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+12.5 Points
+
+Higher
+Lower
+3.5 Rebounds
+
+Higher
+Lower
+15.5 Points + Assists
+
+Higher
+Lower
+15.5 Points + Rebounds
+
+Higher
+Lower
+0.5 Steals
+
+Higher
+Lower
+19.5 Pts + Rebs + Asts
+
+Higher
+Lower
+Robert Williams
+BOS vs PHI
+
+ - Wed 5:10PM
+
+
+15.5 Pts + Rebs + Asts
+
+Higher
+Lower
+7.5 Points
+
+Higher
+Lower
+14.5 Points + Rebounds
+
+Higher
+Lower
+7.5 Rebounds
 
 Higher
 Lower
@@ -559,7 +471,7 @@ Lower
 
 Higher
 Lower
-0.5 Steals
+1.5 Turnovers
 
 Higher
 Lower
@@ -611,11 +523,11 @@ Lower
 
 Higher
 Lower
-44.5 Points + Rebounds
+13.5 Rebounds
 
 Higher
 Lower
-23.5 Rebounds + Assists
+7.5 Assists
 
 Higher
 Lower
@@ -627,20 +539,7 @@ Lower
 
 Higher
 Lower
-62.25 Fantasy Points
-
-
-Higher
-Lower
-5.5 FT Made
-
-Higher
-Lower
-40.0 Points + Assists
-
-Higher
-Lower
-53.5 Pts + Rebs + Asts
+40.5 Points + Rebounds
 
 Higher
 Lower
@@ -650,11 +549,11 @@ DEN vs PHX
  - 7:10PM
 
 
-37.5 Pts + Rebs + Asts
+22.5 Points
 
 Higher
 Lower
-25.5 Points
+7.0 Assists
 
 Higher
 Lower
@@ -662,7 +561,7 @@ Lower
 
 Higher
 Lower
-6.5 Assists
+33.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -674,7 +573,15 @@ Lower
 
 Higher
 Lower
-11.5 Rebounds + Assists
+27.0 Points + Rebounds
+
+Higher
+Lower
+3.5 FT Made
+
+Higher
+Lower
+33.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -695,21 +602,19 @@ Lower
 
 Higher
 Lower
-Michael Porter
-DEN vs PHX
-
- - 7:10PM
-
-
-22.5 Pts + Rebs + Asts
+15.5 Points
 
 Higher
 Lower
-6.5 Rebounds
+0.5 Blocks
 
 Higher
 Lower
-21.5 Points + Rebounds
+8.5 Rebounds + Assists
+
+Higher
+Lower
+15.0 Points
 
 Higher
 Lower
@@ -743,6 +648,18 @@ DEN vs PHX
 
 Higher
 Lower
+12.5 Points + Rebounds
+
+Higher
+Lower
+1.5 3-Pointers Made
+
+Higher
+Lower
+1.5 Assists
+
+Higher
+Lower
 6.0 Rebounds
 
 Higher
@@ -759,25 +676,19 @@ Lower
 
 Higher
 Lower
-0.5 3-Pointers Made
+18.5 Points + Rebounds
 
 Higher
 Lower
-8.0 Rebounds + Assists
+0.5 Steals
 
 Higher
 Lower
-Kentavious Caldwell-Pope
-DEN vs PHX
-
- - 7:10PM
-
-
-13.5 Pts + Rebs + Asts
+5.0 Rebounds
 
 Higher
 Lower
-9.5 Points
+13.5 Points
 
 Higher
 Lower
@@ -795,7 +706,7 @@ DEN vs PHX
  - 7:10PM
 
 
-10.5 Points
+16.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -803,7 +714,7 @@ Lower
 
 Higher
 Lower
-13.5 Points + Rebounds
+16.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -813,40 +724,15 @@ DEN vs PHX
  - 7:10PM
 
 
-0.5 Blocks + Steals
+43.5 Pts + Rebs + Asts
 
 Higher
 Lower
-5.0 Points
+38.5 Points + Assists
 
 Higher
 Lower
-7.5 Pts + Rebs + Asts
-
-Higher
-Lower
-
-MIA @ NYK
-Wed 4:40PM
-Jimmy Butler
-MIA @ NYK
-
- - Wed 4:40PM
-
-
-40.5 Pts + Rebs + Asts
-
-Higher
-Lower
-27.5 Points
-
-Higher
-Lower
-6.0 Assists
-
-Higher
-Lower
-6.0 Rebounds
+5.0 Rebounds
 
 Higher
 Lower
@@ -862,17 +748,11 @@ Lower
 
 Higher
 Lower
-Bam Adebayo
-MIA @ NYK
-
- - Wed 4:40PM
-
-
-17.5 Points
+8.0 Assists
 
 Higher
 Lower
-29.0 Pts + Rebs + Asts
+35.5 Points + Rebounds
 
 Higher
 Lower
@@ -880,7 +760,7 @@ Lower
 
 Higher
 Lower
-25.5 Points + Rebounds
+2.5 3-Pointers Made
 
 Higher
 Lower
@@ -895,18 +775,15 @@ Lower
 Jalen Brunson
 NYK vs MIA
 
- - Wed 4:40PM
-
-
-36.0 Pts + Rebs + Asts
+6.0 Assists
 
 Higher
 Lower
-25.5 Points
+14.5 Rebounds + Assists
 
 Higher
 Lower
-6.5 Assists
+8.0 Rebounds
 
 Higher
 Lower
@@ -914,11 +791,11 @@ Lower
 
 Higher
 Lower
-30.0 Points + Rebounds
+42.5 Pts + Rebs + Asts
 
 Higher
 Lower
-10.5 Rebounds + Assists
+34.5 Points + Assists
 
 Higher
 Lower
@@ -934,8 +811,90 @@ LAL @ GSW
 
  - Wed 7:10PM
 
+26.5 Pts + Rebs + Asts
 
-25.5 Points
+Higher
+Lower
+15.5 Points
+
+Higher
+Lower
+9.5 Rebounds
+
+Higher
+Lower
+10.5 Rebounds + Assists
+
+Higher
+Lower
+1.5 Turnovers
+
+Higher
+Lower
+
+NYK @ MIA
+Sat 12:40PM
+Jalen Brunson
+NYK @ MIA
+
+ - Sat 12:40PM
+
+
+24.5 Points
+
+Higher
+Lower
+9.5 Rebounds + Assists
+
+Higher
+Lower
+5.5 Assists
+
+Higher
+Lower
+4.0 Rebounds
+
+Higher
+Lower
+33.5 Pts + Rebs + Asts
+
+Higher
+Lower
+29.5 Points + Assists
+
+Higher
+Lower
+Julius Randle
+NYK @ MIA
+
+ - Sat 12:40PM
+
+
+11.5 Rebounds + Assists
+
+Higher
+Lower
+22.5 Points
+
+Higher
+Lower
+3.5 Assists
+
+Higher
+Lower
+34.5 Pts + Rebs + Asts
+
+Higher
+Lower
+7.5 Rebounds
+
+Higher
+Lower
+30.5 Points + Rebounds
+
+Higher
+Lower
+26.5 Points + Assists
 
 Higher
 Lower
@@ -943,11 +902,71 @@ Lower
 
 Higher
 Lower
+RJ Barrett
+NYK @ MIA
+
+ - Sat 12:40PM
+
+
+4.5 Rebounds
+
+Higher
+Lower
+20.5 Points
+
+Higher
+Lower
+28.5 Pts + Rebs + Asts
+
+Higher
+Lower
+7.5 Rebounds + Assists
+
+Higher
+Lower
 9.0 Rebounds
 
 Higher
 Lower
-5.5 Assists
+10.5 Rebounds + Assists
+
+Higher
+Lower
+10.5 Points
+
+Higher
+Lower
+13.5 Points + Assists
+
+Higher
+Lower
+1.5 Blocks + Steals
+
+Higher
+Lower
+Mitchell Robinson
+NYK @ MIA
+
+ - Sat 12:40PM
+
+
+1.5 Blocks
+
+Higher
+Lower
+16.5 Pts + Rebs + Asts
+
+Higher
+Lower
+6.0 Points
+
+Higher
+Lower
+15.5 Points + Rebounds
+
+Higher
+Lower
+2.5 Blocks + Steals
 
 Higher
 Lower
@@ -1003,7 +1022,13 @@ LAL @ GSW
 
 Higher
 Lower
-15.5 Points
+Bam Adebayo
+MIA vs NYK
+
+ - Sat 12:40PM
+
+
+28.5 Pts + Rebs + Asts
 
 Higher
 Lower
@@ -1106,6 +1131,30 @@ Lower
 Higher
 Lower
 6.0 Rebounds
+
+Higher
+Lower
+17.5 Points
+
+Higher
+Lower
+11.5 Rebounds + Assists
+
+Higher
+Lower
+25.5 Points + Rebounds
+
+Higher
+Lower
+1.5 Blocks + Steals
+
+Higher
+Lower
+8.0 Rebounds
+
+Higher
+Lower
+3.5 Assists
 
 Higher
 Lower
