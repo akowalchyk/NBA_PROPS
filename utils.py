@@ -123,6 +123,11 @@ def extract_bets_raw():
 
     return players_final
 
+def get_ms(time_str):
+    """Get seconds from time."""
+    m, s = time_str.split(':')
+    return (int(m) * 60 + int(s)) * 1000
+
 def pred_bets(players):
     x_vals = []
     import warnings
