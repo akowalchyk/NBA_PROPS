@@ -1,5 +1,7 @@
 # Project Overview
-[a relative link](project_writup.ipynb)
+This is a project to predict NBA Player Props found on underdogfantasy.com/pick-em/higher-lower. 
+To view the project writup, which holds all necessarry information on how this project works, visit [project_writup.ipynb](project_writup.ipynb)
+To visit the deployed app, visit https://akowalchyk-nba-props-app-3d86q5.streamlit.app/
 
 # Progress Report
 
